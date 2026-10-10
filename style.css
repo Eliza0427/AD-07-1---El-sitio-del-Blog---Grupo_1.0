@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding-top: 70px;
+    background-color:rgb(155, 127, 157);
+   min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex: 1;
+}
+
+/* Menú de navegación */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(155, 127, 157);
+    z-index: 1000;
+}
+
+/* Lista del menú */
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos del menú */
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlaces */
+.menu a {
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(128, 84, 128);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
